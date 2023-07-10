@@ -1,0 +1,8 @@
+<label>{{this.format.label}}:
+  <br>
+  <Input @type={{this.format.type}} @value={{this.value}} />
+</label>
+{{#if this.error}}
+  <small class="error">{{this.error}}</small>
+{{/if}}
+{{yield}}

@@ -1,0 +1,1 @@
+export { default } from 'custom-input/components/custom-input';

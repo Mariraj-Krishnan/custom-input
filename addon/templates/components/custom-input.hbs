@@ -1,6 +1,6 @@
 <label>{{this.format.label}}:
   <br>
-  <Input @type={{this.format.type}} @value={{this.value}} />
+  <Input @type={{this.format.type}} @value={{this.value}} oninput={{action "onInput"}}/>
 </label>
 {{#if this.error}}
   <small class="error">{{this.error}}</small>
